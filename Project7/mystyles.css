@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    background-color: #d9c7a2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    width: 900px;
+    height: 260px;
+    background-color: #8b5e3c;
+    position: relative;
+}
+
+#logoArea {
+    float: left;
+    width: 140px;
+    padding: 55px 5px 10px 10px;
+}
+
+#logo {
+    width: 146px;
+}
+
+#bannerArea {
+    float: left;
+    width: 500px;
+    padding-top: 55px;
+    margin-left: -10px;
+}
+
+#banner {
+    width: 500px;
+}
+
+nav {
+    float: right;
+    width: 250px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    background-color: #c58b45;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 6px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: #5c3b1e;
+    color: #f5deb3;
+}
+
+section {
+    width: 900px;
+    background-image: url('Images/2colback.jpg');
+    background-repeat: repeat-y;
+    overflow: auto;
+}
+
+article {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+article h1,
+article h2 {
+    color: #5c3b1e;
+    text-align: center;
+}
+
+article p {
+    text-align: left;
+    line-height: 1.6;
+}
+
+#gallery {
+    text-align: center;
+}
+
+#fullsize {
+    width: 500px;
+    margin-bottom: 15px;
+}
+
+#thumbnails img {
+    width: 100px;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid #8b5e3c;
+}
+
+#tributeBox {
+    overflow: auto;
+    margin-top: 20px;
+}
+
+#tributeImage {
+    width: 180px;
+    float: left;
+    margin-right: 15px;
+}
+
+footer {
+    width: 900px;
+    background-color: #8b5e3c;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer a {
+    color: #f5deb3;
+}
